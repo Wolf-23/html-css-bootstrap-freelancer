@@ -10,7 +10,22 @@ header {
     background-color: #1ABC9C;
 }
 
-.my_hr {
-    border: 2px solid white;
+.second_section {
     background-color: #fff;
+}
+
+.my_hr_white,
+.my_hr_black {
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.my_hr_white {
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.my_hr_black {
+    border: 2px solid #000;
+    background-color: #000;
 }
