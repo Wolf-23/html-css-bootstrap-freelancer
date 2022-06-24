@@ -10,99 +10,239 @@
         <title>Portfolio Freelancer</title>
     </head>
     <body>
-        <header class="container-fluid">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-6 p-3">
-                        <div class="fs-4 text-white text-uppercase fw-bold">Start Bootstrap</div>
-                    </div>
-                    <div class="col-6 p-3">
-                        <div class="row justify-content-center text-white text-uppercase d-none d-sm-none d-md-flex">
-                            <div class="col-3 text-center fw-bold">Portfolio</div>
-                            <div class="col-3 text-center fw-bold">About</div>
-                            <div class="col-3 text-center fw-bold">Contact</div>
-                        </div>
+        <!-- Header -->
+        <header class="container-fluid fixed-top dark_blue_bg">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand text-uppercase fw-bold" href="#">Start Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item my_nav_tx">
+                                <a class="nav-link e text-uppercase fw-bold" aria-current="page" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item my_nav_tx">
+                                <a class="nav-link  text-uppercase fw-bold" href="#about">About</a>
+                            </li>
+                            <li class="nav-item my_nav_tx">
+                                <a class="nav-link text-uppercase fw-bold" href="#contact">Contact</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
+        <!-- Main -->
         <main>
-            <section class="container-fluid first_section">
-                <div class="container pt-5 pb-5">
-                    <div class="row justify-content-center">
-                        <div class="col-3 col-lg-3 col-xl-3">
+            <section class="container-fluid green_bg">
+                <div class="container pt-5 pb-5 text-center text-white">
+                    <div class="row justify-content-center mb-2">
+                        <div class="col-5 col-lg-4 col-xl-3 mt-3">
                             <img class="img-fluid" src="img/avatar.svg" alt="Avatar">
                         </div>
                     </div>
                     <div class="row justify-content-center mb-2">
-                        <div class="col-12 text-center">
-                            <div class="fs-2 text-white text-uppercase fw-bold">Start Bootstrap</div>
+                        <div class="col-12">
+                            <h3 class="fs-2 text-uppercase fw-bold">Start Bootstrap</h3>
                         </div>
                     </div>
-                    <div class="row justify-content-center mb-3">
-                        <div class="col-2">
+                    <div class="row justify-content-center mb-2">
+                        <div class="col-3 col-md-2">
                             <hr class="my_hr_white">
                         </div>
-                        <div class="col-1 text-center">
-                            <i class="bi bi-star-fill fs-4 text-white"></i>
+                        <div class="col-1">
+                            <i class="bi bi-star-fill fs-4"></i>
                         </div>
-                        <div class="col-2">
+                        <div class="col-3 col-md-2">
                             <hr class="my_hr_white">
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-12 text-center text-white text-uppercase">
+                        <div class="col-12 text-uppercase">
                             Graphic artist - Web designer - Illustrator
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="container-fluid second_section">
-                <div class="container pt-5 pb-5">
+            <section class="container-fluid white_bg" id="portfolio">
+                <div class="container pt-5 pb-5 text-center">
                     <div class="row justify-content-center">
-                        <div class="col-12 text-center">
-                            <div class="fs-3 text-black text-uppercase fw-bold">Portfolio</div>
+                        <div class="col-12 ">
+                            <h3 class="text-black text-uppercase fw-bold">Portfolio</h3>
                         </div>
                     </div>
                     <div class="row justify-content-center mb-3">
-                        <div class="col-2">
+                        <div class="col-3 col-md-2">
                             <hr class="my_hr_black">
                         </div>
-                        <div class="col-1 text-center">
-                            <i class="bi bi-star-fill fs-4 text-black "></i>
+                        <div class="col-1 ">
+                            <i class="bi bi-star-fill fs-4 text-black"></i>
+                        </div>
+                        <div class="col-3 col-md-2">
+                            <hr class="my_hr_black">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center g-3 text-white">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="img_wrapper position-relative">
+                                <div class="overlay">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <img class='img-fluid rounded' src="img/cabin.png" alt="Cabin">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="img_wrapper position-relative">
+                                <div class="overlay">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <img class='img-fluid rounded' src="img/cake.png" alt="Cake">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="img_wrapper position-relative">
+                                <div class="overlay">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <img class='img-fluid rounded' src="img/circus.png" alt="Circus">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="img_wrapper position-relative">
+                                <div class="overlay">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <img class='img-fluid rounded' src="img/game.png" alt="Game">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="img_wrapper position-relative">
+                                <div class="overlay">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <img class='img-fluid rounded' src="img/safe.png" alt="Safe">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="img_wrapper position-relative">
+                                <div class="overlay">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <img class='img-fluid rounded' src="img/submarine.png" alt="Submarine">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid green_bg" id="about">
+                <div class="container pt-5 pb-5 text-center text-white">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h3 class="text-uppercase fw-bold">About</h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-3 col-md-2 p-0">
+                            <hr class="my_hr_white">
                         </div>
                         <div class="col-2">
+                            <i class="bi bi-star-fill fs-4"></i>
+                        </div>
+                        <div class="col-3 col-md-2 p-0">
+                            <hr class="my_hr_white">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-11 col-md-5 text-start">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore accusamus iure libero incidunt possimus perferendis molestiae molestias modi dicta, architecto excepturi distinctio quidem quod quia facilis dignissimos voluptatem ad in.</p>
+                        </div>
+                        <div class="col-11 col-md-5 text-start">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore accusamus iure libero incidunt possimus perferendis molestiae molestias modi dicta, architecto excepturi distinctio quidem quod quia facilis dignissimos voluptatem ad in.</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6">
+                            <button type="button" class="btn green_bg border border-white my_btn">
+                                <i class="bi bi-download p-1"></i>Download
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid white_bg" id="contact">
+                <div class="container pt-5 pb-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <h3 class="text-black text-uppercase fw-bold">Contact me</h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-3 col-md-2 p-0">
+                            <hr class="my_hr_black">
+                        </div>
+                        <div class="col-2 text-center">
+                            <i class="bi bi-star-fill fs-4 text-black"></i>
+                        </div>
+                        <div class="col-3 col-md-2 p-0">
                             <hr class="my_hr_black">
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-12 text-center text-white text-uppercase">
-                            Graphic artist - Web designer - Illustrator
-                        </div>
-                    </div>
-                    <div class="row justify-content-center text-center g-3">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <img class='img-fluid rounded' src="img/cabin.png" alt="">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <img class='img-fluid rounded' src="img/cake.png" alt="">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <img class='img-fluid rounded' src="img/circus.png" alt="">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <img class='img-fluid rounded' src="img/game.png" alt="">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <img class='img-fluid rounded' src="img/safe.png" alt="">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <img class='img-fluid rounded' src="img/submarine.png" alt="">
-                        </div>
+                        <form action="#" class="col-10">
+                            <div class="form-floating mb-3"> 
+                                <input type="text" class="form-control border-0 border-bottom" id="floatingInput">
+                                <label class="opacity-100 fw-semibold" for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control border-0 border-bottom" id="floatingInput">
+                                <label class="opacity-100 fw-semibold" for="floatingInput" >Email Address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control border-0 border-bottom" id="floatingInput">
+                                <label class="opacity-100 fw-semibold" for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control border-0 border-bottom" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label class="opacity-100 fw-semibold" for="floatingTextarea2">Message</label>
+                            </div>
+                            <button type="button" class="btn my_btn">Send</button>
+                        </form>
                     </div>
                 </div>
             </section>
         </main>
+        <!-- Footer -->
+        <footer>
+            <section class="container-fluid blue_bg pt-5">
+                <div class="row justify-content-center text-center text-white">
+                    <div class="col-10 col-md-3 mb-3">
+                        <span class="text-uppercase mb-1 fs-5">Location</span>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-10 col-md-3 mb-3 fs-5">
+                        <span class="text-uppercase mb-1 d-block">Around the web</span>
+                        <i class="bi bi-facebook p-1 my_icon"></i>
+                        <i class="bi bi-google p-1 my_icon"></i>
+                        <i class="bi bi-twitter p-1 my_icon"></i>
+                        <i class="bi bi-linkedin p-1 my_icon"></i>
+                    </div>
+                    <div class="col-10 col-md-3 mb-3">
+                        <span class="text-uppercase mb-1 fs-5">About Freelancer</span>
+                        <p>Freelance is a free to use, open source Bootstrap theme create by <span class="green_tx">Start Bootstrap</span></p>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid dark_blue_bg p-5">
+                <div class="row text-center text-white">
+                    <div class="col-12">
+                        <span> Copiright &#169; Your Website 2019 </span>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- Script -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
